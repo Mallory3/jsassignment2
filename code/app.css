@@ -97,10 +97,10 @@ header a {
         top: 0;
         bottom: 0;
         right: -300px;
-        width: 100px;
+        width: 300px;
         height: 100vh;
         background: #333;
-        transition: 0.2s; 
+        transition: transform 0.2s; 
         transform: translateX(0px); 
     }
 /*3. switch hamburger menu on */
@@ -118,29 +118,34 @@ header a {
    /* to make nav menu appear on click */
     .openState {
         transform: translateX(-300px); 
+        transition: transform 0.2s; 
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: space-evenly;
-        text-align: center;
-        
+        text-align: left;
+        justify-content: start; 
+        padding-top: 2em;
     }
+
+    header li {
+        color: white;
+        text-decoration: none;
+        padding: .5em;
+    }
+
+
     
     /* to make nave menu dissapear on click */
     .closedState {
-        transform: translateX(0px);    
-    }
-/* 
-    header ul {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        width: 400px;
-        justify-content: space-between;
+        transform: translateX(0px);
+        transition: transform 0.2s; 
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    } */
+        text-align: left;
+        justify-content: start; 
+        padding-top: 2em;    
+    }
 }
 
 
