@@ -103,7 +103,7 @@ header a {
         transition: transform 0.2s; 
         transform: translateX(0px); 
     }
-/*3. switch hamburger menu on */
+
     header .menu {
         display: block;
     }
@@ -115,7 +115,7 @@ header a {
         bottom: 0;
         right: 1em;
     }
-   /* to make nav menu appear on click */
+   
     .openState {
         transform: translateX(-300px); 
         transition: transform 0.2s; 
@@ -135,7 +135,7 @@ header a {
 
 
     
-    /* to make nave menu dissapear on click */
+  
     .closedState {
         transform: translateX(0px);
         transition: transform 0.2s; 
