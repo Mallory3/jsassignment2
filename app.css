@@ -37,7 +37,7 @@ HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
 header {
     height: 80px;
-    background: rgb(9, 80, 138);
+    background: rgb(148, 25, 31);
 }
 
 header nav .wrapper {
@@ -161,15 +161,15 @@ HERO
             rgba(255, 255, 255, 0.2)
         ),
         url('bath.jpeg');
-    background-position: 10% 0%;
+    background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     padding-top: .1vh;
 }
 
 .hero h1 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 300;
     margin-bottom: 1px;
 }
