@@ -15,9 +15,9 @@ GENERAL
 .primary-button {
     padding: 10px 30px;
     border-radius: 30px;
-    background: #333;
+    background: rgb(173, 27, 27);
     color: white;
-    border: 1px solid #333;
+    border: 1px solid rgb(5, 5, 5);
     font-size: 14px;
     margin-right: 10px;
 }
@@ -25,9 +25,9 @@ GENERAL
 .secondary-button {
     padding: 10px 30px;
     border-radius: 30px;
-    background: #777;
+    background:rgb(9, 80, 138);
     color: white;
-    border: 1px solid #777;
+    border: 1px solid rgb(5, 5, 5);
     font-size: 14px;
     margin-right: 10px;
 }
@@ -37,7 +37,7 @@ HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
 header {
     height: 80px;
-    background: #333;
+    background: rgb(9, 80, 138);
 }
 
 header nav .wrapper {
@@ -157,15 +157,15 @@ HERO
 - - - - - - - - - - - - - - - - - - - - - - - - */
 .hero {
     background: linear-gradient(
-            rgba(255, 255, 255, 0.9),
-            rgba(255, 255, 255, 0.4)
+            rgba(255, 255, 255, 0.3),
+            rgba(255, 255, 255, 0.2)
         ),
-        url('https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80');
-    background-position: 50% 0%;
+        url('bath.jpeg');
+    background-position: 10% 0%;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
-    padding-top: 10vh;
+    height: 90vh;
+    padding-top: .1vh;
 }
 
 .hero h1 {
