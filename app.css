@@ -163,6 +163,7 @@ HERO
     background-repeat: no-repeat;
     height: 100vh;
     padding-top: .1vh;
+    opacity: 0.9;
 }
 
 .hero h1 {
