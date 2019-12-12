@@ -156,13 +156,16 @@ header a {
 HERO
 - - - - - - - - - - - - - - - - - - - - - - - - */
 .hero {
-    background-image: url('bath.jpeg');
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.3),
+            rgba(255, 255, 255, 0.2)
+        ),
+        url('bath.jpeg');
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: .5vh;
-    opacity: 0.9;
+    padding-top: .1vh;
 }
 
 .hero h1 {
