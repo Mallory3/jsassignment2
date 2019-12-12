@@ -38,7 +38,6 @@ HEADER
 header {
     height: 80px;
     background: rgb(148, 25, 31);
-    box-shadow: 1px 1px 1px 15px black;
 }
 
 header nav .wrapper {
@@ -162,7 +161,7 @@ HERO
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    padding-top: .1vh;
+    padding-top: .5vh;
     opacity: 0.9;
 }
 
