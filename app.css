@@ -157,8 +157,8 @@ HERO
 - - - - - - - - - - - - - - - - - - - - - - - - */
 .hero {
     background: linear-gradient(
-            rgba(255, 255, 255, 0.3),
-            rgba(255, 255, 255, 0.2)
+            rgba(201, 214, 250, 0.2),
+            rgba(201, 214, 250, 0.1)
         ),
         url('bath.jpeg');
     background-position: top left;
